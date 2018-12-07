@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*banner*/
+.banner{width: 1300px;height: 400px;margin: 0 auto;}
+/*main*/
+.main{width: 1000px;margin: 0px auto;}
+/*jp*/
+.jp .jp-tit{border-bottom: 5px dotted #008800;padding: 20px 0px;margin-top: 10px; }
+.jp .jp-tit img{float: left;margin-right: 20px;}
+.jp .jp-tit p{font-size: 26px;}
+.jp .jp-main{
+	background: #E1FFFF;	
+	width: 480px;
+	height: 380px;
+	float: left;
+	border: 6px double #0ff;
+	margin-top: 20px;
+}
+.jp .jp-main h3{	
+	font-size: 18px;
+	width: 480px;
+	text-align: center;
+	height: 40px;line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.jp .jp-main .content{width: 480px;height: 340px;}
+.jp .jp-main p{width: 480px;height: 40px;line-height: 40px;font-size: 16px;}
+.jp .jp-main .radio input{width: 15px;height: 15px;margin:0px 5px 0px 10px;vertical-align: middle;}
+.jp .jp-main .num input{width: 45px;height: 25px;}
+.jp .jp-main .num a{padding-right: 10px;}
+.jp .jp-main .left span,.num span,.radio span{
+	width: 85px;
+	text-align: right;
+	font-size: 16px;
+	display: inline-block;
+	padding-right: 10px;
+}
+.jp .jp-main .left input{width: 350px;height: 30px;}
+.jp .jp-main select{width: 150px;height: 30px;}
+.jp .jp-main .bottom input{
+	width: 120px;
+	height: 38px;
+	font-size: 18px;
+	background: #fe7b00;
+	color:#fff;border: 2px solid #ccc;
+}
+.jp .jp-main .bottom{width: 120px;margin: 10px auto;}
+/*ticket*/
+.ticket{margin-top: 10px;}
+.ticket .ticket-tit{border-bottom: 5px dotted #008800;padding: 20px 0px; }
+.ticket .ticket-tit img{float: left;margin-right: 20px;border-radius: 50%;}
+.ticket .ticket-tit p{font-size: 26px;}
+.ticket-main{width: 1000px;margin: 0 auto;height: 360px;}
+.ticket-main img{float: left;width: 200px;height: 200px;padding:70px 30px;border-radius: 50%;}
+.ticket-main img:hover{transform: scale(1.1);}
+.ticket-main form{width: 570px;height: 267px;float: left;}
+.ticket-main h3{font-size: 24px;text-align: center;height: 60px;line-height: 60px;margin: 10px 0px;}
+.ticket-main p{font-size: 22px;}
+.ticket-main .left span {font-size: 20px; width: 100px;display: inline-block;height: 50px;text-align: center;}
+.ticket-main .left input{width: 400px;height: 40px;}
+.ticket-main .bottom span{display: inline-block;width: 200px;font-size: 20px;margin-left:100px; }
+.ticket-main .bottom input{width: 20px;height: 20px;display: block;float: right;margin:4px 80px 0px 0px;}
+.ticket-main .submit input{
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	background: #00BFFF;
+	color:#fff;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0px 20px 100px;
+}

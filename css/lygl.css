@@ -1,0 +1,55 @@
+@charset "utf-8";
+/*banner*/
+.banner{width: 1300px;height: 400px;margin: 0 auto;}
+/*main*/
+/*main-tit*/
+.main{width: 1000px;margin: 0 auto;}
+.main-tit{border-bottom: 4px solid  #008000;width: 1000px;height: 40px;margin-top: 25px;}
+.main-tit p{font-size: 24px;float: left;height: 40px;}
+.main-tit ul{float: right;height: 40px;}
+.main-tit ul li{float: left;width: 90px;line-height: 40px;margin: 0px 10px;}
+.main-tit ul li a{font-size: 16px;}
+.main-tit ul li .right:hover{color:#00CED1; }
+.main-tit ul li .left{background: #00CED1;color: #fff;border-radius: 10px;padding: 4px 10px;}
+/*nav*/
+.main nav{
+	width: 1000px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 35px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.main nav p{
+	background: #eee;
+	float: left;width: 100px;
+	font-size: 20px;
+	line-height: 38px;
+	text-align: center;
+	height: 38px;
+}
+.main .current{color: #00CED1;}
+.main nav a{padding: 0px 20px;font-size: 16px;}
+.main nav a:hover{color: #00CED1;}
+/*main-bd*/
+.main-bd-tit{width: 1000px;height: 155px;margin-top: 20px;}
+.main-bd-tit .photo{width: 64px;float: left;height: 135px;padding: 20px 20px 0px 10px;}
+.main-bd-tit .photo img{border-radius: 50%;}
+.main-bd-tit .photo img:hover{transform: scale(1.2,1.2);}
+.main-bd-tit .content{width: 900px;}
+.content p:nth-child(1){padding: 15px 0px;}
+.content p:nth-child(1) a{font-size: 22px;}
+.content p:nth-child(1) a:hover{color:#00CED1; }
+.content p:nth-child(2){font-size: 14px;color: #999;padding-bottom: 12px;}
+.content p:nth-child(2) a{font-size: 16px;color: #00CED1;padding-right: 20px;}
+.content p:nth-child(2) a:hover{color: #0000ff;}
+.content p{font-size: 16px;padding-bottom: 10px;}
+.content p span{color: #999;font-size: 16px}
+.main-bd ul{width: 906px;margin-left: 94px;height: 155px;margin-top: 20px;}
+.main-bd ul li{float: left;margin-right: 22px;width: 200px;height: 150px;overflow: hidden;}
+.main-bd ul li img:hover{transform: scale(1.2);}
+/*page*/
+.page{margin: 40px auto;text-align: center;}
+.page a{padding: 10px 15px;border: 1px solid #00CED1;}
+.page .current{background:#00CED1;color: #fff; }
+.page a:hover{background:#00CED1;color: #fff;}

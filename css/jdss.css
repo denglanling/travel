@@ -1,0 +1,93 @@
+@charset "utf-8";
+/*banner*/
+.banner{
+	width: 1400px;height: 300px;
+	margin: 0 auto;position: relative;
+}
+.banner .banner-form{
+	z-index: 10;
+	position: absolute;top: 25px;left:200px;
+	width: 400px;height: 250px;
+	background: #fff;
+}
+ .form-tit{height: 40px;background: #f3f3f3;}
+ .form-tit a{
+	height: 40px;
+	display: block;
+	float: left;	
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	box-sizing: border-box;
+}
+ .form-tit .on{margin:0px 90px;color: #fe7b00;border-bottom: 2px solid #fe7b00;}
+ .form-tit a:hover{color: #fe7b00;}
+ .banner-form span{
+	font-size: 14px;
+	height: 50px;line-height: 50px;
+	width: 60px; 
+	padding-right: 6px;
+	padding-left: 10px; 
+}
+.banner-form input{width: 300px;height: 30px;}
+.banner-form .time span{padding-left:24px; }
+.banner-form .time input{width:117px;}
+.banner-form .botton input{
+	margin-left: 150px;
+	width: 117px;
+	height: 40px;
+	margin-top: 10px;
+	background:#fe7b00;
+	font-size: 18px;
+	color: #fff;
+}
+/*main*/
+.main{width: 1000px;margin: 20px auto;}
+.main-tit h2{font-size: 24px;width: 1000px;text-align: center;height: 60px;}
+.main-tit div{
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-left: 10px;
+	width: 750px;
+	height: 40px;	
+	font-size: 18px;
+}
+.main-tit div p{
+	font-size: 16px;
+	width: 80px;	
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+}
+.main-tit div a{
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 0px 20px;
+	text-align: center;
+}
+.main-tit div a:hover{background: #f67f00;color: #fff;border-radius: 10px;}
+/*jdss-main*/
+.jdss-main {width: 1000px;}
+.jdss-main li{float: left;width: 305px;box-sizing: border-box;}
+.jdss-main li img:hover{
+	animation-name: mychange;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+
+}
+@keyframes mychange{
+	0%{transform: rotate(0deg)scale(1);}
+	30%{transform: rotate(-30deg)scale(1.1);}
+	50%{transform: rotate(30deg)scale(1.1);}
+	80%{transform: rotate(0deg)scale(0.8);}
+}
+.jdss-main li p{
+	box-sizing: border-box;
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	line-height:40px;
+}
+.jdss-main li p a{font-size: 16px;}
+.jdss-main li p a:hover{height: 40px;color: #f67f00;}

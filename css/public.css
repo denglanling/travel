@@ -1,0 +1,175 @@
+﻿@charset "utf-8";
+*{margin: 0px;padding: 0px;list-style: none;font:normal 12px Microsoft YaHei;color:#5d5d5d;}
+a{text-decoration: none;}
+body{background: #E0ffFF;}
+.fixed {
+	zoom:1;
+}
+/*denglu*/
+#denglu{
+	display: none;
+	position: fixed;
+	z-index: 100;
+	background: rgba(0,0,0,0.6);
+	width: 100%;height: 100%;
+}
+#denglu form{
+	position: fixed;
+	width: 400px;
+	height: 400px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;margin:auto;
+}
+.off{height: 32px;width: 400px;line-height: 32px;}
+.off a{font-size: 24px;position: absolute;right: 15px;top: 2px;color: #ccc;}
+.off a:hover{color: #000;}
+.denglu-logo{height: 60px;width: 400px;margin-bottom: 20px;padding-left: 48px;}
+.denglu-logo span{
+	height: 60px;
+	color: #000;
+	padding-right: 130px;
+	line-height: 60px;float: right;
+	font-size: 18px;
+}
+.denglu-logo img{height: 60px;}
+#denglu input{
+	width: 300px;height: 40px;
+	font-size: 18px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 25px;
+}
+#denglu .check{height: 14px;font-size: 14px;padding-left: 48px;margin-bottom: 20px;}
+#denglu .check a{display: inline-block;padding-left: 170px;}
+#denglu .check input{width: 14px;height: 14px;display: inline-block;margin: 0;}
+#denglu .left{float: left;color: #09f;margin-left: 48px;}
+#denglu .left:hover,.denglu .right:hover{opacity: 0.5;filter: alpha(opacity=50);}
+#denglu .right{float: right;color: #09f;margin-right: 48px;}
+/*header*/
+.header{
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background: #333333;
+}
+.top-box{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+}
+.search{
+	margin:9px;
+	float: right;
+}
+.search-text{
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	width: 180px;
+	border: 0;
+}
+.search-submit{
+	background:url(../images/search_01.jpg) no-repeat;
+	width: 29px;
+	height: 22px;	
+	border: 0;
+}
+.top-box a{
+	margin: 9px;
+	display: block;
+	float: right;
+	width: 60px;
+	height: 22px;
+	line-height: 22px;
+	text-align:center;
+	background: #fff;
+	border-radius: 4px;
+	color: black;	
+}
+.top-box .on{background:#e60012; color:#fff;}
+/*logo*/
+.logo{width: 1000px;height: 83px;margin: 0 auto;}
+.logo img{float: left;width: 170px;height: 83px;}
+.logo-a{
+	float: left;
+	width: 570px;height: 83px;
+	line-height: 83px;
+	font-size: 28px;font-family: "华文行楷";
+	color: #555;
+}
+.logo-b{
+	text-indent: 5em;
+	padding-top:6px;
+	box-sizing: border-box;;
+	float: left;
+	width: 260px;height: 83px;
+	font-size: 16px;
+}
+.logo-b span{display: block;font-size: 30px;font-weight: bold;color: #080;text-indent: 0;}
+/*nav*/
+.nav{
+	height: 60px;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom,#CCFFFF,#ddffff,#eeFFFF);
+
+}
+.nav ul {
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+}
+.nav ul li{
+	float: left;
+	text-align: center;
+	margin: 12px 28px;
+	border-radius:20px;
+	background: #7FFFAA;
+	/*background-image: linear-gradient(to bottom,#7FFFAA,#F0FFF0);*/
+}
+.nav ul li a{font-size: 16px;color: #0000ff;display: block;width: 110px;border-radius:20px;line-height: 36px;
+	height: 36px;}
+.sy a{
+	color:#000 !important;background: #00FFFF;
+}
+.nav ul li a:hover{
+	color:#fff;background: #00FFFF;
+}
+/*footer*/
+.footer{background: #ccc;width: 100%;margin-top: 40px;}
+.footer-item {width: 1000px;height: 220px;margin: 0 auto;padding-top: 30px;box-sizing: border-box;}
+.footer-item .footert-item-a{float: left; width: 150px;height: 220px;font-size: 18px;}
+.footer-item .footert-item-a ul li{margin: 10px;}
+.footer-item .footert-item-a a{font-size: 12px;}
+.footer-item div{float: right;}
+.footer-item .fb div{padding-left: 20px;}
+.footer-item .fb div p{text-align: center;text-indent: 0;}
+.footer-item .fb p{font-size: 16px;padding-bottom: 10px;text-indent:2em;}
+.footer .copyright{background: #2c2d2b;}
+.footer .copyright p{
+	margin:0 auto;width: 1000px;
+	text-align: center;padding-bottom: 10px;
+	text-indent: 2em;
+}
+.footer .copyright ul{
+	width: 486px;
+	margin: 0 auto;
+	padding-top: 20px;
+	height: 30px;}
+.footer .copyright ul li{
+	float: left;
+	width: 80px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 18px;
+	text-align: center;
+	border-right: 1px solid #3e3e3e;
+}
+.footer .copyright ul li:last-child{border: none;}
