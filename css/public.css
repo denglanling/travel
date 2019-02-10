@@ -1,7 +1,7 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 *{margin: 0px;padding: 0px;list-style: none;font:normal 12px Microsoft YaHei;color:#5d5d5d;}
 a{text-decoration: none;}
-body{background: #E0ffFF;}
+
 .fixed {
 	zoom:1;
 }
@@ -118,7 +118,7 @@ body{background: #E0ffFF;}
 .nav{
 	height: 60px;
 	overflow: hidden;
-	background-image: linear-gradient(to bottom,#CCFFFF,#ddffff,#eeFFFF);
+	background:#eff;
 
 }
 .nav ul {
